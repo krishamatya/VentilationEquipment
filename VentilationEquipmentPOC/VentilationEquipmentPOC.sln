@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VentilationEquipmentPOC", "VentilationEquipmentPOC\VentilationEquipmentPOC.csproj", "{27AF2258-426D-4B1F-96B6-357F45820CD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VentilationEquipment.Common", "VentilationEquipment.Common\VentilationEquipment.Common.csproj", "{F89204E8-3A55-420F-8119-378F036F4FB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VentilationEquipment.Data", "VentilationEquipment.Data\VentilationEquipment.Data.csproj", "{8BCCF63E-0A45-4096-9987-1B52FD1A8CF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VentilationEquipment.Service", "VentilationEquipment.Service\VentilationEquipment.Service.csproj", "{84107282-46E5-4474-ACDF-050603058CE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VentilationEquipment.Repository", "VentilationEquipment.Repository\VentilationEquipment.Repository.csproj", "{2625FE9B-0F75-4827-A7D8-14B44FDB73F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentilationEquipmentTest", "VentilationEquipmentTest\VentilationEquipmentTest.csproj", "{2FA029E6-2851-4F8C-8BF8-5FC40FC3F7F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27AF2258-426D-4B1F-96B6-357F45820CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AF2258-426D-4B1F-96B6-357F45820CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AF2258-426D-4B1F-96B6-357F45820CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AF2258-426D-4B1F-96B6-357F45820CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89204E8-3A55-420F-8119-378F036F4FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89204E8-3A55-420F-8119-378F036F4FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89204E8-3A55-420F-8119-378F036F4FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89204E8-3A55-420F-8119-378F036F4FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BCCF63E-0A45-4096-9987-1B52FD1A8CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BCCF63E-0A45-4096-9987-1B52FD1A8CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BCCF63E-0A45-4096-9987-1B52FD1A8CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BCCF63E-0A45-4096-9987-1B52FD1A8CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84107282-46E5-4474-ACDF-050603058CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84107282-46E5-4474-ACDF-050603058CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84107282-46E5-4474-ACDF-050603058CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84107282-46E5-4474-ACDF-050603058CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2625FE9B-0F75-4827-A7D8-14B44FDB73F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2625FE9B-0F75-4827-A7D8-14B44FDB73F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2625FE9B-0F75-4827-A7D8-14B44FDB73F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2625FE9B-0F75-4827-A7D8-14B44FDB73F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA029E6-2851-4F8C-8BF8-5FC40FC3F7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA029E6-2851-4F8C-8BF8-5FC40FC3F7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA029E6-2851-4F8C-8BF8-5FC40FC3F7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA029E6-2851-4F8C-8BF8-5FC40FC3F7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0C128F6-8B19-4500-BE1E-F1847C56158A}
+	EndGlobalSection
+EndGlobal

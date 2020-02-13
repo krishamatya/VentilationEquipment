@@ -1,0 +1,8 @@
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\bin\Debug\netcoreapp2.1\VentilationEquipment.Common.deps.json
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\bin\Debug\netcoreapp2.1\VentilationEquipment.Common.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\bin\Debug\netcoreapp2.1\VentilationEquipment.Common.pdb
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\obj\Debug\netcoreapp2.1\VentilationEquipment.Common.csproj.CoreCompileInputs.cache
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\obj\Debug\netcoreapp2.1\VentilationEquipment.Common.AssemblyInfoInputs.cache
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\obj\Debug\netcoreapp2.1\VentilationEquipment.Common.AssemblyInfo.cs
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\obj\Debug\netcoreapp2.1\VentilationEquipment.Common.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Common\obj\Debug\netcoreapp2.1\VentilationEquipment.Common.pdb

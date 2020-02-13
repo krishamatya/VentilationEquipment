@@ -1,0 +1,14 @@
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\bin\Debug\netcoreapp2.1\VentilationEquipment.Service.deps.json
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\bin\Debug\netcoreapp2.1\VentilationEquipment.Service.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\bin\Debug\netcoreapp2.1\VentilationEquipment.Service.pdb
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\obj\Debug\netcoreapp2.1\VentilationEquipment.Service.csproj.CoreCompileInputs.cache
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\obj\Debug\netcoreapp2.1\VentilationEquipment.Service.AssemblyInfoInputs.cache
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\obj\Debug\netcoreapp2.1\VentilationEquipment.Service.AssemblyInfo.cs
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\obj\Debug\netcoreapp2.1\VentilationEquipment.Service.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\obj\Debug\netcoreapp2.1\VentilationEquipment.Service.pdb
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\obj\Debug\netcoreapp2.1\VentilationEquipment.Service.csprojAssemblyReference.cache
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\bin\Debug\netcoreapp2.1\VentilationEquipment.Data.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\bin\Debug\netcoreapp2.1\VentilationEquipment.Repository.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\bin\Debug\netcoreapp2.1\VentilationEquipment.Repository.pdb
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\bin\Debug\netcoreapp2.1\VentilationEquipment.Data.pdb
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Service\obj\Debug\netcoreapp2.1\VentilationEquipment.Service.csproj.CopyComplete

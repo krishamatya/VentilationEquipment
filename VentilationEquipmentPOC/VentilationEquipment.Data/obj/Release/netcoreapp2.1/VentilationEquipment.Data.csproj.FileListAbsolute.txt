@@ -1,0 +1,8 @@
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\bin\Release\netcoreapp2.1\VentilationEquipment.Data.deps.json
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\bin\Release\netcoreapp2.1\VentilationEquipment.Data.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\bin\Release\netcoreapp2.1\VentilationEquipment.Data.pdb
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Release\netcoreapp2.1\VentilationEquipment.Data.csproj.CoreCompileInputs.cache
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Release\netcoreapp2.1\VentilationEquipment.Data.AssemblyInfoInputs.cache
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Release\netcoreapp2.1\VentilationEquipment.Data.AssemblyInfo.cs
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Release\netcoreapp2.1\VentilationEquipment.Data.dll
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Release\netcoreapp2.1\VentilationEquipment.Data.pdb
