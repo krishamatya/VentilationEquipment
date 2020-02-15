@@ -6,4 +6,11 @@ H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\De
 H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.AssemblyInfo.cs
 H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.dll
 H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.pdb
-H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.csprojAssemblyReference.cache
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\bin\Debug\netcoreapp2.1\VentilationEquipment.Data.deps.json
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\bin\Debug\netcoreapp2.1\VentilationEquipment.Data.dll
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\bin\Debug\netcoreapp2.1\VentilationEquipment.Data.pdb
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.csproj.CoreCompileInputs.cache
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.AssemblyInfoInputs.cache
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.AssemblyInfo.cs
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.dll
+H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.pdb

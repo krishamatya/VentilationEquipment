@@ -57,7 +57,10 @@ namespace VentilationEquipment
         {
             dbSet.Add(entity);
         }
-
+        public virtual void Update(TEntity entity)
+        {
+            dbSet.Update(entity);
+        }
         public virtual void Delete(object id)
         {
             TEntity entityToDelete = dbSet.Find(id);

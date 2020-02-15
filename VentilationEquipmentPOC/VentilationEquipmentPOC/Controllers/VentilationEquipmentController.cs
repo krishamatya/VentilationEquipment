@@ -35,14 +35,29 @@ namespace VentilationEquipmentPOC.Controllers
             return Ok(_unitOfWork.DepartmentRepository.Get(x => x.Id == id));
         }
 
-        [HttpPost("AddDepartment")]
-        public IActionResult AddDepartment(Department veqObj)
+        [HttpPost("PostDepartment")]
+        public IActionResult PostDepartment(Department veqObj)
         {
-            _unitOfWork.DepartmentRepository.Insert(veqObj);
-            _unitOfWork.Commit();
+            if (veqObj.Id > 0) {
+                _unitOfWork.DepartmentRepository.Update(veqObj);
+                _unitOfWork.Commit();
+            }   
+            else
+            {
+                _unitOfWork.DepartmentRepository.Insert(veqObj);
+                _unitOfWork.Commit();
+            }
              return CreatedAtRoute("GetDepartmentById",new { id = veqObj.Id },veqObj);
         }
-
+        [HttpPost("DeleteDepartment")]
+        public IActionResult DeleteDepartment(Department veqObj)
+        {
+            
+            _unitOfWork.DepartmentRepository.Delete(veqObj);
+            _unitOfWork.Commit();
+           
+            return CreatedAtRoute("GetDepartmentById", new { id = veqObj.Id }, veqObj);
+        }
         [HttpGet("GetAllVentilationEquipment")]
         public ActionResult GetAllVentilationEquipment()
         {
