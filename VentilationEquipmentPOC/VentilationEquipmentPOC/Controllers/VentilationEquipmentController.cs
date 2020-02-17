@@ -71,10 +71,10 @@ namespace VentilationEquipmentPOC.Controllers
         {
             return Ok(ventilationService.AddVentilationEquipment(deptObj));
         }
-        [HttpPost("DeleteVentilationEquipment")]
-        public IActionResult DeleteVentilationEquipment([FromQuery]int Id)
+        [HttpPost("DeleteVentilationEquipment", Name = "DeleteVentilationEquipment")]
+        public IActionResult DeleteVentilationEquipment([FromForm] int id)
         {
-            return Ok(ventilationService.DeleteVentilationEquipment(Id));
+            return Ok(ventilationService.DeleteVentilationEquipment(id));
         }
     }
 }
