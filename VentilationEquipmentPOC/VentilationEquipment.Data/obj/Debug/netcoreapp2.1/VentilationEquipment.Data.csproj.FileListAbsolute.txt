@@ -14,3 +14,4 @@ H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\Ventilation
 H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.AssemblyInfo.cs
 H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.dll
 H:\VentilationEquipment\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.pdb
+H:\VentilationEquipment\VentilationEquipmentPOC\VentilationEquipment.Data\obj\Debug\netcoreapp2.1\VentilationEquipment.Data.csprojAssemblyReference.cache

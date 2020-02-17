@@ -13,12 +13,15 @@ namespace VentilationEquipment
             ventilationRepository = repository;
         }
        
-        public dynamic AddVentilationEquipment(VentilationMonitor veqObj) {
+        public dynamic AddVentilationEquipment(List<VentilationMonitor> veqObj) {
             return ventilationRepository.AddVentilationEquipment(veqObj);
         }
         public dynamic GetAllVentilationEquipment() {
             return ventilationRepository.GetAllVentilationEquipment();
 
+        }
+        public dynamic DeleteVentilationEquipment(int Id) {
+            return ventilationRepository.DeleteVentilationEquipment(Id);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace VentilationEquipmentPOC.Controllers
         private readonly IOptions<ConnectionStrings> _appSettings;
         private IVentilationService ventilationService;
         private readonly IUnitOfWork _unitOfWork;
-        public VentilationEquipmentController( IOptions<ConnectionStrings> appsettings,IVentilationService service ,IUnitOfWork unitOfWork)
+        public VentilationEquipmentController(IOptions<ConnectionStrings> appsettings, IVentilationService service, IUnitOfWork unitOfWork)
         {
             ventilationService = service;
             _unitOfWork = unitOfWork;
@@ -26,11 +26,11 @@ namespace VentilationEquipmentPOC.Controllers
         [HttpGet("GetAllDepartment")]
         public ActionResult GetAllDepartment()
         {
-            return Ok (_unitOfWork.DepartmentRepository.GetAll());
+            return Ok(_unitOfWork.DepartmentRepository.GetAll());
         }
 
-        [HttpGet("GetDepartmentById",Name = "GetDepartmentById")]
-        public  IActionResult GetDepartmentById(int id)
+        [HttpGet("GetDepartmentById", Name = "GetDepartmentById")]
+        public IActionResult GetDepartmentById(int id)
         {
             return Ok(_unitOfWork.DepartmentRepository.Get(x => x.Id == id));
         }
@@ -41,33 +41,40 @@ namespace VentilationEquipmentPOC.Controllers
             if (veqObj.Id > 0) {
                 _unitOfWork.DepartmentRepository.Update(veqObj);
                 _unitOfWork.Commit();
-            }   
+            }
             else
             {
                 _unitOfWork.DepartmentRepository.Insert(veqObj);
                 _unitOfWork.Commit();
             }
-             return CreatedAtRoute("GetDepartmentById",new { id = veqObj.Id },veqObj);
+            return CreatedAtRoute("GetDepartmentById", new { id = veqObj.Id }, veqObj);
         }
         [HttpPost("DeleteDepartment")]
         public IActionResult DeleteDepartment(Department veqObj)
         {
-            
+
             _unitOfWork.DepartmentRepository.Delete(veqObj);
             _unitOfWork.Commit();
-           
+
             return CreatedAtRoute("GetDepartmentById", new { id = veqObj.Id }, veqObj);
         }
+
+
         [HttpGet("GetAllVentilationEquipment")]
         public ActionResult GetAllVentilationEquipment()
         {
-            return ventilationService.GetAllVentilationEquipment();
+            return Ok(ventilationService.GetAllVentilationEquipment());
         }
 
-        [HttpPost("AddVentilationEquipment")]
-        public IActionResult AddVentilationEquipment(VentilationMonitor deptObj)
+        [HttpPost("PostVentilationEquipment")]
+        public IActionResult PostVentilationEquipment([FromBody]List<VentilationMonitor> deptObj)
         {
-            return ventilationService.AddVentilationEquipment(deptObj);
+            return Ok(ventilationService.AddVentilationEquipment(deptObj));
+        }
+        [HttpPost("DeleteVentilationEquipment")]
+        public IActionResult DeleteVentilationEquipment([FromQuery]int Id)
+        {
+            return Ok(ventilationService.DeleteVentilationEquipment(Id));
         }
     }
 }

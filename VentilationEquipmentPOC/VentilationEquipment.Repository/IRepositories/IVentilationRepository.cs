@@ -6,7 +6,8 @@ namespace VentilationEquipment
 {
     public interface IVentilationRepository
     {
-        dynamic AddVentilationEquipment(VentilationMonitor veqObj);
+        dynamic AddVentilationEquipment(List<VentilationMonitor> veqObj);
         dynamic GetAllVentilationEquipment();
+        dynamic DeleteVentilationEquipment(int Id);
     }
 }
